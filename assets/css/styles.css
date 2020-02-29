@@ -5,6 +5,8 @@ body {
 
   /* Visual */
   background-image: url("../imgs/ignasi_pattern_s.png");
+  /* background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 html {
@@ -43,6 +45,7 @@ main {
   font-size: 24px;
   font-weight: bold;
   color: #fff;
+  padding: 0 0.5em;
 
   /* Visual */
   background: #4aaaa5;
@@ -56,12 +59,26 @@ main {
 .navbar {
   background: white;
   border: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
-/* media query for nav background color change */
+/* media query for nav background color change on sm screen */
 @media only screen and (max-width: 767px) {
-  .navbar-header {
-    background-color: #4aaaa5;
+  .navbar {
+    background: #4aaaa5;
+  }
+}
+
+/* media query for nav background color change on xs screen */
+@media only screen and (max-width: 576px) {
+  .container {
+    padding-left: 0;
+    margin-left: 0;
+    padding-right: 0;
+    margin-right: 0;
   }
 }
 /* END NAV */
