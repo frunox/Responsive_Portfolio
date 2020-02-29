@@ -57,18 +57,17 @@ main {
 }
 
 .navbar {
-  background: white;
+  background: #f8f9fa;
   border: none;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1;
 }
 
 /* media query for nav background color change on sm screen */
 @media only screen and (max-width: 767px) {
   .navbar {
-    background: #4aaaa5;
+    background: #c3daf1;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: gray;
   }
 }
 
@@ -82,7 +81,6 @@ main {
   }
 }
 /* END NAV */
-
 
 /* CONNECT W/ ME CSS */
 .connect-header {
@@ -199,3 +197,9 @@ main {
 }
 
 /* END CONTACT FORM PAGE */
+
+/* STICKY FOOTER */
+
+#sticky-footer {
+  flex-shrink: 0;
+}
