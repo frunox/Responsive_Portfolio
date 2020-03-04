@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <title>Bootstrap Basic Portfolio</title>
+  <title>My Portfolio</title>
 
   <!-- Bootstrap Stylesheet -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -21,16 +21,16 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
-      <a class="navbar-brand" href="index.html" id="logo">Your Name</a>
+      <a class="navbar-brands" href="index.html" id="logo">John Cannon</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
         aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <nav class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="index.html">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -39,7 +39,7 @@
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
-      </div>
+      </nav>
       <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
@@ -48,29 +48,62 @@
 
   <!-- Start of container -->
   <main class="container">
-    <section class="row">
+    <section class="row border border-primary">
       <div class="col-md-8">
         <article class="block">
           <h1 class="block-header">About Me</h1>
           <hr />
-          <img src="assets/imgs/natebeach.jpeg" alt="" id="about-image" />
-          <p>Many years as a civil engineer taught me much about the design process.  Functionality was paramount.  Design documents were precise, concise, with as little left to interpretation as possible.  Large project were broken into tasks sequenced to minimize the time involved.  Professionals from many disciplines were often deployed.  Problems were overcome using logic, experience, and some creative thinking.  Seeing a project through from conception to constructed was certainly satisfying.</p>
-          <br />
-          <p>But I never got to put the aesthetic touches on my designs.  That was for architects and landscape designers.</p>
-          <br />
-          <p>The creation of web apps is much like engineering design.  The efficient, logical approach can be used in coding and developing the back end technology.  But now, I can create the aesthetic elements, the user interface.  What's your core message?  Let's put it front and center.  Do you want bold, attention-getting colors, or a muted, comforting palette?  What imagery expresses your philosophy?  Are you traditional, or more forward-looking?  How about something that's just...different?  Let's work together to create a look and feel that's right for you.
-          </p>
+          <div class="row align-items-center">
+            <div class="col-md-4">
+              <img src="assets/imgs/lfplan.png" class="card-img-bottom about-img" alt="" />
+            </div>
+            <div class="col-md-8 border border-dark">
+              <p>Civil engineers are designers.  Functionality and precision were paramount.   Problems were overcome using logic and creative thinking.</p>
+            </div>
+          </div>
+          <div class="row align-items-center border border-primary">
+            <div class="col-md-4 border border-success">
+              <img src="assets/imgs/lfplan.png" class="card-img-bottom about-img" alt="" />
+              <img src="assets/imgs/lfplan.png" class="card-img-bottom" alt="" />
+            </div>
+            <div class="col-md-8 border border-dark">
+              <p>The creation of web apps is much like engineering design.  The efficient, logical approach can be used in coding and developing the back end technology.  But now, let's add the aesthetic elements.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-md-4 align-items-center">
+        <article class="card border border-primary" style="width: 18rem;">
+            <img src="assets/imgs/Heron MN RIver IMGP9110.jpg" class="card-img-top" alt="...">
+            <div class="card-body border border-success">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <div class="row">
+              <div class="col-md-12 text-center subrow">
+                <p>New row</p>
+                <div class="row">
+                  <div class="col-md-6 subrow">
+                    <img src="assets/imgs/Heron MN RIver IMGP9110.jpg" class="card-img-top" alt="...">
+                  </div>
+                  <div class="col-md-6 border border-dark">
+                    <p>Subrow text</p>
+                  </div>
+                </div>
+              </div>
+            </div>
         </article>
       </div>
     </section>
+
   </main>
   <!-- End of container -->
 
   <!-- Start of sticky footer -->
   <footer id="sticky-footer" class="py-4 bg-dark text-light">
-    <div class="container text-center">
-        <small>Copyright &copy; John Cannon (2020)</small>
-    </div>
+    <section class="container text-center">
+      <small>Copyright &copy; John Cannon (2020)</small>
+    </section>
   </footer>
   <!-- End of sticky footer -->
 
