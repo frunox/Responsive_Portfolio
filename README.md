@@ -1,5 +1,5 @@
 # Responsive_Portfolio
-*Updated 3/03/20 by John Cannon*
+*Updated 3/03/20 for final submittal by John Cannon*
 
 This project involves the creation of a personal portfolio page using Bootstrap.  Goals for the project are:
 
@@ -21,6 +21,7 @@ In addition, two @media queries are included. One makes the content extend the e
 3.  Minor changes to the initial code include re-ordering of the links in the navbar.
 4.  The color scheme was changed, including the backgrounds for the navbar and the content.
 5.  New pictures were added.
-6.  The borders around some of the rows and columns are there to help see how the Bootstrap elements are laid out.  Some changes, mainly to the <p> elements were made to align them in a more visually pleasing manner.
-7.  Code for adding a carousel in 'contact.html' is commented out.  This may be added in the future. 
+6.  The borders around some of the rows and columns are there to help see how the Bootstrap elements are laid out.  Some changes, mainly to the 'p' elements were made to align them in a more visually pleasing manner.
+7.  A carousel was added in 'contact.html'.  This may be added in the future. 
+
 

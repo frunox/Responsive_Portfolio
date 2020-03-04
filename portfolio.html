@@ -11,12 +11,13 @@
 
   <!-- Boostrap Stylesheet -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <!-- Our own CSS stylesheet -->
+  <!-- My CSS stylesheet -->
   <link rel="stylesheet" href="assets/css/styles.css" media="screen">
 
 </head>
 
 <body>
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -28,6 +29,7 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <!-- Re-order links -->
           <li class="nav-item">
             <a class="nav-link" href="index.html">About</a>
           </li>
@@ -47,9 +49,11 @@
 
   <!-- Start of container -->
   <div class="container">
+    <!-- Start of Bootstrap grid setup -->
     <main class="row">
       <div class="col-md-8">
-        <article class="block">
+        <!-- Section for portfolio images -->
+        <section class="block">
           <h1 class="block-header">Portfolio</h1>
           <hr />
           <div class="row">
@@ -65,42 +69,49 @@
               <img class="img-fluid port-image" src="assets/imgs/card example.png" alt="">
             </div>
             <div class="col-sm-6">
-              <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
+              <img class="img-fluid port-image" src="assets/imgs/black bgd.png" alt="">
             </div>
           </div>
           <div class="row">
             <div class="col-sm-6">
-              <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
+              <img class="img-fluid port-image" src="assets/imgs/black contact.png" alt="">
             </div>
           </div>
-        </article>
+        </section>
+        <!-- End of section -->
       </div>
       <div class="col-md-4">
-        <article class="block">
-          <h1 class="block-header">Personal</h1>
+        <!-- Figure for carousel and related content -->
+        <figure class="block">
+          <h1 class="block-header">My Images</h1>
           <hr />
           <p class="text-center">Photos of the day.</p>
-           <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <!-- Carousel to display personal images -->
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img src="assets/imgs/IMGP9237.jpg");
-                  " class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/imgs/blueprints-for-house.jpg" class="d-block w-100" alt="...">
-              </div>
+                <img src="assets/imgs/IMGP9237.jpg" class="d-block w-100" alt="Butterfly">
             </div>
-          <!-- <img class="img-fluid port-image" src="assets/imgs/IMGP9237.jpg" alt="Butterfly"> -->
-        </article>
+            <div class="carousel-item">
+              <img src="assets/imgs/Heron.jpg" class="d-block w-100" alt="Heron">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/imgs/MN River swamp IMGP9029.jpg" class="d-block w-100" alt="Swamp">
+            </div>
+          </div>
+            <!-- End of carousel -->
+        </figure>
+        <!-- End of carousel and related content -->
       </div>
     </main>
+    <!-- End of Bootstrap setup -->
   </div>
   <!-- End of container -->
 
   <!-- Start of sticky footer -->
   <footer id="sticky-footer" class="py-4 bg-dark text-light">
     <div class="container text-center">
-        <small>Copyright &copy; John Cannon (2020)</small>
+      <small>Copyright &copy; John Cannon (2020)</small>
     </div>
   </footer>
   <!-- End of sticky footer -->

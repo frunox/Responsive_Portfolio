@@ -18,39 +18,43 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <a class="navbar-brand" href="index.html" id="logo">John Cannon</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link active" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-          <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-      </nav>
-      <!-- End of navbar -->
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <a class="navbar-brand" href="index.html" id="logo">John Cannon</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link active" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+  <!-- End of navbar -->
 
   <!-- Start of container -->
   <main class="container">
+    <!-- Start of Bootstrap setup -->
     <section class="row">
       <div class="col-md-6">
+        <!-- Input form -->
         <form class="block form-horizontal">
+          <!-- Form header -->
           <h1 class="block-header">Contact</h1>
           <hr />
           <div class="form-group">
@@ -73,14 +77,18 @@
           </div>
           <button class="submit-btn">Submit</button>
         </form>
+        <!-- End of form -->
       </div>
       <div class="col-md-6">
-        <article class="block">
+        <!-- Start of section showing Bootstrap grid examples -->
+        <section class="block">
           <h1 class="block-header">Thank You!</h1>
           <hr />
+          <!-- Row 1 -->
           <div class="row border border-dark">
             <div class="col-md-12 text-center border border-alert">
-              <p>Center text in col-12.</p>
+              <p>Center text in Row 1.</p>
+              <!-- Start of subrow -->
               <div class="row border border-success">
                 <div class="col-xs-12 col-md-6 border border-alert flex-direction-column">
                   <p>Text in subrow.</p>
@@ -95,11 +103,14 @@
                   <p>Text in a subrow.</p>
                 </div>
               </div>
+              <!-- End of subrow -->
             </div>
           </div>
-        </article>
+          <!-- End of Row 1 -->
+        </section>
       </div>
     </section>
+    <!-- End of Bootstrap -->
   </main>
   <!-- End of container -->
 
